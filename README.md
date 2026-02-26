@@ -74,7 +74,7 @@ Register → Login → Receive JWT → Store in localStorage
 **1. Clone the repo**
 
 ```bash
-git clone https://github.com/NainaKothari-14/typescript-notes.git
+git clone <your-repo-url>
 cd ToDo
 ```
 
@@ -108,6 +108,7 @@ Runs on → `http://localhost:3000`
 - Protecting routes with custom middleware
 - Handling user-specific data securely
 - Connecting a React frontend with an authenticated backend
+- Managing component state and side effects using `useState`, `useEffect`, and `useRef`
 
 ---
 
