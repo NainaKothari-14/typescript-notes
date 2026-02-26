@@ -11,7 +11,7 @@ export const NoteForm = ({ onAdd }: NoteFormProps) => {
   // input reference
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // 🔥 auto focus when component loads
+  // auto focus when component loads
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
