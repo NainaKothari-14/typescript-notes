@@ -1,7 +1,7 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 interface NoteFormProps {
-  onAdd: (text: string) => void;
+  onAdd: (text: string) => Promise<void> | void;
 }
 
 export const NoteForm = ({ onAdd }: NoteFormProps) => {
@@ -11,16 +11,24 @@ export const NoteForm = ({ onAdd }: NoteFormProps) => {
   // input reference
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  // 🔥 auto focus when component loads
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (!text.trim()) return;
 
-    onAdd(text);
+    await onAdd(text); // wait for async add
+
     setText("");
 
-    // focus back on input
-    inputRef.current?.focus();
+    // 🔥 ensure focus after re-render
+    setTimeout(() => {
+      inputRef.current?.focus();
+    }, 0);
   };
 
   return (

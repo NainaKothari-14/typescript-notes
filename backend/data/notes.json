@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "bd7d9c3d-c0ff-4034-8f62-840c061f467c",
+    "text": "Finish TypeScript authentication middleware",
+    "important": true,
+    "userId": "743257c5-ef9a-40de-a663-fbe5facebbf6"
+  },
+  {
+    "id": "9061a375-febc-4215-a57b-8059d1b4427a",
+    "text": "Refactor fsHelper to make it reusable",
+    "important": false,
+    "userId": "743257c5-ef9a-40de-a663-fbe5facebbf6"
+  },
+  {
+    "id": "9147e7d9-b74e-4c9e-be3d-0b46de2f12a5",
+    "text": "Learn bcrypt password hashing",
+    "important": false,
+    "userId": "743257c5-ef9a-40de-a663-fbe5facebbf6"
+  }
+]
