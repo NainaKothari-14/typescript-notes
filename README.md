@@ -21,6 +21,7 @@ This project explores backend architecture, JWT authentication, middleware-based
 - Protected Routes via Middleware
 - User-Specific Notes (users only see their own)
 - Full CRUD — Create, Read, Update, Delete Notes
+- Toggle Note Importance via path parameter (`PATCH /notes/:id/importance`)
 - File-based JSON Storage (no database required)
 
 ---
