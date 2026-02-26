@@ -25,7 +25,7 @@ export const NoteForm = ({ onAdd }: NoteFormProps) => {
 
     setText("");
 
-    // 🔥 ensure focus after re-render
+    //ensure focus after re-render
     setTimeout(() => {
       inputRef.current?.focus();
     }, 0);
