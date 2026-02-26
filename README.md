@@ -75,7 +75,7 @@ Register → Login → Receive JWT → Store in localStorage
 **1. Clone the repo**
 
 ```bash
-git clone https://github.com/NainaKothari-14/typescript-notes.git
+git clone https://github.com/NainaKothari-14/typescript-notes-maker.git
 cd ToDo
 ```
 
