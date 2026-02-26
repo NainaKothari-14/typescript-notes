@@ -70,12 +70,24 @@ Register → Login → Receive JWT → Store in localStorage
 
 ---
 
+## Screenshots
+
+<div align="center">
+
+| Login | Notes |
+|-------|-------|
+| <img src="screenshots/login.png" width="420"/> | <img src="screenshots/note.png" width="420"/> |
+
+</div>
+
+---
+
 ## Getting Started
 
 **1. Clone the repo**
 
 ```bash
-git clone https://github.com/NainaKothari-14/typescript-notes-maker.git
+git clone https://github.com/NainaKothari-14/typescript-notes.git
 cd ToDo
 ```
 
